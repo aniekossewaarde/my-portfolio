@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #bbded6;  
+}
+
+
 body {
     font-family: 'Cormorant Garamond', serif;
 }
@@ -5,4 +10,27 @@ body {
 h1 {
     font-family: 'El Messiri', sans-serif;
     font-weight:600;
+    font-size: 80px;
+}
+
+.intro {
+    background: var(--primary-color);
+    text-align: center;
+    padding: 80px 0px 80px 0px;
+}
+
+.intro-navigation {
+    margin-top: 50px;
+}
+
+.primary-button {
+    background: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  transition: all 150ms ease-in-out;
+  font-size: 20px;
+}
+
+.primary-button:hover {
+    border: 2px solid var(--primary-color);
+    background: white;
 }
