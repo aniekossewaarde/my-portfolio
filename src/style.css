@@ -5,18 +5,23 @@
 
 body {
     font-family: 'Cormorant Garamond', serif;
+    padding-bottom: 100px;
 }
 
 h1 {
     font-family: 'El Messiri', sans-serif;
     font-weight:600;
-    font-size: 80px;
+    font-size: 75px;
 }
+
+
 
 .intro {
     background: var(--primary-color);
     text-align: center;
     padding: 80px 0px 80px 0px;
+    border-radius: 4px;
+    margin: 20px;
 }
 
 .intro-navigation {
@@ -33,4 +38,39 @@ h1 {
 .primary-button:hover {
     border: 2px solid var(--primary-color);
     background: white;
+}
+
+.secondary-button {
+    background: var(--primary-color);
+    font-size: 15px;
+    margin-bottom: 50px;
+    transition: all 150ms ease-in-out;
+}
+
+.secondary-button:hover {
+    background: white;
+    border: 1px solid var(--primary-color);
+}
+
+.preview-section {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.preview-line {
+    font-size: 36px;
+}
+
+.project-preview-images {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 216px;
+    padding: 5px;
+    border: 1px solid var(--primary-color);
+}
+
+.summary-line {
+    font-size: 18px;
+    margin: 10px 0px;
 }
