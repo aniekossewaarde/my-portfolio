@@ -15,7 +15,9 @@ h1 {
     text-align: center;
 }
 
-
+h3 {
+font-size: 23px;
+}
 
 .intro {
     background: var(--primary-color);
@@ -106,6 +108,14 @@ font-size: 17px;
    font-size: 20px;
    margin-bottom: 30px;
    margin-top: 60px;
+}
+
+.contact-info {
+margin-left: 21px;
+}
+
+.contact-link {
+    color: var(--primary-color);
 }
 
 @media (max-width: 768px) {
