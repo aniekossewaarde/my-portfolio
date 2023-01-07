@@ -71,6 +71,15 @@ h1 {
     border: 1px solid var(--primary-color);
 }
 
+.project-images {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 300px;
+    padding: 5px;
+    border: 1px solid var(--primary-color); 
+}
+
 .summary-line {
     font-size: 18px;
     margin: 10px 0px;
@@ -91,6 +100,12 @@ h1 {
 .about-me-text {
 font-size: 17px;
 
+}
+
+.project-text {
+   font-size: 20px;
+   margin-bottom: 30px;
+   margin-top: 60px;
 }
 
 @media (max-width: 768px) {
