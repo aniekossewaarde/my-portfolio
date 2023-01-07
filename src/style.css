@@ -19,6 +19,33 @@ h3 {
 font-size: 23px;
 }
 
+nav {
+    padding: 10px;
+    line-height: 35px;
+    font-size: 17px;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    transition: all 100ms ease-in-out;
+}
+
+nav a.active, nav a:hover {
+    color: var(--primary-color);
+    }
+
 .intro {
     background: var(--primary-color);
     text-align: center;
@@ -118,6 +145,7 @@ margin-left: 21px;
     color: var(--primary-color);
 }
 
+
 @media (max-width: 768px) {
     h1 {
 font-size: 55px;
@@ -128,4 +156,8 @@ font-size: 55px;
     .about-me-text {
         margin-top: 20px;
     }
+    .name {
+        display: none;
+    }
+
     }
