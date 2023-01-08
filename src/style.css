@@ -47,6 +47,44 @@ nav a.active, nav a:hover {
     color: var(--primary-color);
     }
 
+    footer {
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    footer .email-link {
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+        opacity: 0.7;
+       
+    }
+
+    footer .email-link:hover {
+        color: var(--primary-color);
+    }
+
+    footer .social-links {
+        margin: 10px;
+    }
+
+    footer .social-links a {
+        margin: 0px 20px;
+        color: var(--primary-color);
+        font-size: 18px;
+        padding: 10px 13px;
+        background: white;
+        border: 1px solid var(--primary-color);
+        border-radius: 50%;
+        transition: all 100ms ease-in-out;
+    }
+
+    footer .social-links a:hover {
+    color: white;
+    background: var(--primary-color);
+        border: 1px solid var(--primary-color);
+    }
+
 .intro {
     background: var(--primary-color);
     text-align: center;
